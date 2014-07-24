@@ -1,10 +1,4 @@
 ##Robot
-```C++
-void setup() {
 
-}
+Robot with keypad, lcd, and ultrasonic
 
-void loop() {
-
-}
-```
