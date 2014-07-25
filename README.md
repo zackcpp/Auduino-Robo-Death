@@ -121,3 +121,15 @@ void loop() {
 
 
 ```
+
+Code for speaker beep at 1KHz
+
+
+```cpp
+for (int i=0; i<500; i++) {  // generate a 1KHz tone for 1/2 second
+  digitalWrite(SPKR, HIGH);
+  delayMicroseconds(500);
+  digitalWrite(SPKR, LOW);
+  delayMicroseconds(500);
+}
+```
